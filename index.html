@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Interactive Jon duckett attribute guide</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="main_info">
+            ATTRIBUTES TELL US MORE ABOUT ELEMENTS
+        </h1>
+        <p id="info_1">
+            Attributes provide additional
+             information about the contents 
+             of an element. They appear on
+             the opening tag of the element 
+             and are made up of two parts: a 
+             <b style="color: #88bca6;">name</b> 
+             and a<b style="color: #ba5322;"> value</b>,
+             seperated by an equal sign.
+        </p>
+
+        <div id="example">
+            <p style="font-size:12px; width:30px; " id="attribute_name">
+            ATTRIBUTE NAME
+            </p>
+            <P> &lt;h1 <b style="color: #88bca6;">style</b> =" <b id="color_pick" 
+                style="color: #ba5322">color:
+                <select>
+                    <option value="white">white</option>
+                    <option value="yellow">yellow</option>
+                    <option value="black">black</option>
+                    <option value="blue">blue</option>
+                </select></b> "&gt; <input type="text" id="example_text"
+                placeholder="Header in English"> &lt;h1&gt;</P>
+
+                <p id="attribute_value" style="color: #ba5322; font-size:12px;
+                width:30px;">ATTRIBUTE VALUE</p>
+        </div>
+
+    </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+        <script src='./script.js'></script>
+</body>
+</html>

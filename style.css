@@ -1,0 +1,69 @@
+body {
+    background-color: #372227;
+}
+
+#container {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main_info {
+    width: 450px;
+    height: 100px;
+    overflow: hidden;
+}
+
+h1, p {
+    color: white;
+}
+
+div {
+    width: 450px;
+}
+
+#example {
+    width: 660px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+
+#example p {
+    font-size: 26px;
+}
+
+#attribute_name {
+    color: #88bca6;
+    position: absolute;
+    margin-top: -20px;
+    left: 45px;
+}
+
+input {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    color: white;
+}
+input:focus {
+    outline: none;
+    background-color: #321f24;
+}
+
+#attribute_value {
+    margin-left: 190px;
+    margin-top: -10px;
+}
+
+select {
+    appearance: none;
+    background-color: transparent;
+    font-size: 23px;
+    color: #ba5322;
+    width: 88px;
+    outline: none;
+    border: 1px solid #27181c;
+}
